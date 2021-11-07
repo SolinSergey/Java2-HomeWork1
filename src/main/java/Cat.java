@@ -1,4 +1,4 @@
-public class Cat implements Actions {
+public class Cat implements Actions,IParticipant {
     String name;
     int limitRun;
     int limitJump;

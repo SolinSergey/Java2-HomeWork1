@@ -1,4 +1,4 @@
-public class Human implements Actions{
+public class Human implements Actions,IParticipant{
 
     String name;
     int limitRun;
