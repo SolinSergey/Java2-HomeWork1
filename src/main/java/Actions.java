@@ -1,4 +1,4 @@
 public interface Actions {
-    void run();
+    void run(int distance);
     void jump();
 }

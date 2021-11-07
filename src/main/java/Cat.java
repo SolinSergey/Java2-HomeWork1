@@ -7,8 +7,8 @@ public class Cat implements Actions {
         this.limitRun=limitRun;
         this.limitJump=limitJump;
     }
-    public void run() {
-        System.out.println("Кот умеет бегать \n");
+    public void run(int distance) {
+        System.out.println("Кот пробежал " + distance);
     }
 
     public void jump() {

@@ -12,6 +12,7 @@ public class HomeWork1 {
 
         //Задание №3//
         /////////////
+
         Object[] participants = new Object[5];
         participants[0]=new Human("Вася",500,1);
         participants[1]=new Cat("Барсик",30,2);
@@ -19,6 +20,15 @@ public class HomeWork1 {
         participants[3]=new Robot("Р2Д2",5,0);
         participants[4]=new Robot("Робот-полицейский",100,3);
 
+        Object[] obstacles = new Object[2];
+        obstacles[0]=new JoggingTrack(100);
+        obstacles[1]=new Wall(1);
+
+        for (int i=0;i<5;i++){
+            participants[i].run;
+        }
+
+        }
 
     }
-}
+

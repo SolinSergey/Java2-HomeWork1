@@ -9,8 +9,8 @@ public class Human implements Actions{
         this.limitJump=limitJump;
     }
 
-    public void run() {
-        System.out.println("Человек умеет бегать \n");
+    public void run(int distance){
+        System.out.println("Человек пробежал" + distance);
     }
 
     public void jump() {

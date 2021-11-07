@@ -8,8 +8,8 @@ public class Robot implements Actions {
         this.limitJump=limitJump;
     }
 
-    public void run(){
-        System.out.println("Робот умеет бегать \n");
+    public void run(int distance){
+        System.out.println("Робот пробежал" + distance);
     }
 
     public void jump(){
