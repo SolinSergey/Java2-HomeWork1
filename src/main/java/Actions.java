@@ -1,4 +1,5 @@
-public interface Actions {
-    void run(int distance);
-    void jump();
+public interface Actions extends Participant{
+    public void run(int distance);
+    public void jump(int height);
+
 }
